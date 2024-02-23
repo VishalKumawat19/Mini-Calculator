@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #073B4C;
+}
+
+.container {
+height: 75vh;
+width: 20vw;
+border-radius: 1rem;
+background-color: #004777;
+margin-left: 580px;
+margin-top: 50px;
+padding: 10px;
+padding-top: 30px;
+
+}
+
+.output {
+    
+    height: 70px;
+    width: 18vw;
+    background-color: #38A3A5;
+    margin-left: 15px;
+    margin:15px ;
+    border-radius: 1rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#button{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;  
+    justify-content:space-evenly; 
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.btn:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+} 
+
+
+.btn {
+    height: 50px ;
+    width : 50px ;
+    background-color : #0077B6;
+    border: none;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+
+}
+
+.btn-zero {
+    background-color:#38A3A5 ;
+}
+
+.btn-equal {
+    width: 120px;
+    background-color:green ;
+   
+}
+
+.yellow {
+    background-color: #E9C46A;
+}
+
+.red{
+    background-color: #6A040F;
+}
+
+h1 {
+     text-align: center;
+     margin-top: 20px;
+     color: #6A00F4;
+}
